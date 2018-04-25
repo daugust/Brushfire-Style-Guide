@@ -1,0 +1,311 @@
+@import url("https://use.typekit.net/ouf7qfb.css");
+
+/* Global styles */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'mrs-eaves-xl-serif', serif;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.header{
+    font-family: 'montserrat', sans-serif;
+}
+
+/* Home Landing Content  */
+.home{
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    grid-template-rows: 100vh;
+    align-items: center;
+
+    background-image: url('img/background.png');
+    background-position: center;
+    background-size: cover;
+}
+.home-image img{
+    max-width: 80%;
+    height: auto;
+    padding-left: 1.65em;
+}
+.home-sidebar img{
+    height: 100vh;
+    width: 100%;
+    vertical-align: middle; 
+}
+/* Intoduction */
+.intro{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    grid-template-rows: 75vh;
+    align-items: center;
+    background-color: #fff;
+    color: #363636;
+}
+.intro-text{
+    line-height: 1.5;
+    margin: 0 10%;
+}
+.intro-text h3{
+    text-transform: uppercase;
+}
+.intro-sidebar img{
+    height: 75vh;
+    width: 100%;
+    vertical-align: middle;
+}
+/* Logo Specifications - Define and Display */
+.logo-specs{
+    background-color: #363636;
+    color: #fff;   
+    overflow: auto; 
+}
+.logo-define{
+    margin: 5%;
+    line-height: 1.5;
+}
+.logo-display img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+/* Branding Samples - Logo over brand colors */
+.branding-samples{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25vh 25vh;  
+}
+.branding-samples img{
+    max-width: 65%;
+    height: auto;  
+    display: block;
+    margin: 35% auto;
+}
+#white-sample, #orange-sample, #black-sample, #blue-sample{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#white-sample{
+    background-color: #fff;
+}
+#orange-sample{
+    background-image: url('img/orange-gradient.png');
+}
+#black-sample{
+    background-image: url('img/dark-grey.png');
+}
+#blue-sample{
+    background-image: url('img/blue-gradient.png');
+}
+/* Color Section */
+.primary-colors{
+    background-color: #fff;
+    color: #363636;
+    overflow: auto; 
+}
+.color-define{
+    margin: 5%;
+    line-height: 1.5;
+}
+.color-display ul{
+    list-style-type: none;
+}
+.color-display li{
+    margin: 5px;
+}
+.color-display p{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 7%;
+}
+.color-display img{
+    vertical-align: middle;
+}  
+/* Typography Section */
+.typography{
+    background-image: url('img/blue-gradient-sq.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+.typography-define{
+    margin: 5%;
+    line-height: 1.5;    
+}
+.typography-display{
+    background-color: #F6F6F6;
+    color: #363636;
+    padding: 0 5%;
+}
+.montserrat-display{
+    font-family: 'montserrat', sans-serif;
+}
+.lato-display{
+    font-family: 'lato', sans-serif;
+}
+.mrseaves-display{
+    font-family: 'mrs-eaves-xl-serif', serif;
+}
+/* Photography Section */
+.photography{
+    background-color: #363636;
+    color: #F6F6F6;
+    overflow: auto;
+}
+.photo-define{
+    margin: 5%;
+    line-height: 1.5;
+}
+
+.photo-display img{
+    max-width: 90%;
+    display: block;
+    margin: 5% auto;
+}
+/* Footer of Page */
+footer{
+    background-color: #F6F6F6;
+    color: #363636;
+    padding: 2% 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+footer a:link, a:visited{
+    text-decoration: none;
+    color: #363636;
+}
+
+/* For Tablets */
+@media only screen and (min-width: 768px){
+    /* Home Landing Content */
+    .home-image img{
+        width: 50%;
+        height: auto;
+        padding-left: 15%;
+    }
+    /* Intro Section */
+    .intro-text{
+        font-size: 1.15em;
+        margin: 0 15%;
+    }
+    /* Logo Specifications - Define and Display */
+    .logo-specs{
+        display: grid;
+        grid-template-columns: 33vw 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+    }
+    .logo-define{
+        margin: 12%;
+        font-size: 1.15em;
+    }
+    .logo-display{
+        height: 100%;
+        background-color: #EEEFF1;
+    }
+    .logo-specifics-image{
+        max-width: 75%;
+        height: auto;
+        display: block;
+        margin: 10% auto 0 auto;
+    }
+    .solo-logo{
+        max-width: 50%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    /* Branding Sample */
+    .branding-samples img{
+        margin: 25% auto;
+    }
+    /* Colors Section */
+    .primary-colors{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+        font-size: 1.15em;
+    }
+    /* Typography Section */
+    .typography{
+        display: grid;
+        grid-template-columns: 33vw 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+    }
+    .typography-define{
+        margin: 12%;
+        font-size: 1.15em;
+    }
+    .typography-display{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
+        height: 100%;
+        overflow: auto;
+    }
+    /* Photography Section */
+    .photography{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+    }
+    .photo-define{
+        margin: 12%;
+        font-size: 1.15em;
+    }  
+    /* Footer Section */
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+    }
+    footer p{
+        text-align: left;
+    }
+    footer a{
+        text-align: right;
+    }
+}
+
+/* Laptops and Desktops */
+@media only screen and (min-width: 992px){
+    /* Home Image */
+    .home-image img{
+        width: 40%;
+        height: auto;
+    }
+    /* Intro Text */
+    .intro-text{
+        margin: 0 25%;
+    }
+    /* Logo Specific Image */
+    .logo-specifics-image{
+        width: 60%;
+        height: auto;
+    }
+    .solo-logo{
+        width: 35%;
+        height: auto;
+    }
+    /* Brandind Samples */
+    .branding-samples{
+        grid-template-rows: 50vh 50vh;
+    }
+    .branding-samples img{
+        width: 50%;
+        height: auto;
+        margin: 15% auto;
+    }
+    .color-define{
+        margin: 12%;
+    }
+}
+
