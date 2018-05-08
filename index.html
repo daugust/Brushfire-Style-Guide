@@ -8,12 +8,12 @@
 
     <link rel="stylesheet" href="https://use.typekit.net/cuf7qfb.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,600,700" rel="stylesheet">
 
     <title>Brushfire | Style Guide</title>
 </head>
 <body>
-    <section class="home">
+    <section class="home-wrapper">
         <div class="home-image">
             <img src="img/logo-text.png" alt="BrushFire Banner and Logo">
         </div>
@@ -22,37 +22,36 @@
         </div>
     </section>
 
-    <section class="intro">
+    <section class="intro-wrapper">
         <div class="intro-sidebar">
           <img src="img/orange-gradient-sq.png" alt="Orange Gradient Sidebar">
         </div>
-        <div class="intro-text">
+        <div class="intro-text container">
           <h3 class="header">Introduction</h3>
           <p>Our brand identity is made up of a number of elements. The logo, the typography, the color palette, the imagery, and the words. Each element has its own role to play. Together these elements create Brushfire.</p>
         </div>
     </section>
 
-    <section class="logo-specs">
-        <div class="logo-define">
-            <h2 class="header">Logo Specifics</h2>
-            <h3 class="header">Primary Logo</h3>
+    <section class="logo-wrapper">
+        <div class="logo-define container">
+            <h3 class="header">Logo Specifics</h3>
+            <h3 class="subheader">Primary Logo</h3>
             <p>Our logotype must always be 1/10th the width of the Brushfire logomark away and centered vertically.</p>
-
-            <h3 class="header">Clearspace</h3>
-            <p>To preserve the integrity of the logotype no other logos or graphics can infringe on its space. The minimum clearspace is half the width</p>
-
+            <br>
+            <h3 class="subheader">Clearspace</h3>
+            <p>To preserve the integrity of the logotype no other logos or graphics can infringe on its space. The minimum clearspace is half the width of our Brushfire logo mark.</p>
         </div>
         <div class="logo-display">
-            <div class="logo-specifics-image">
+            <div>
                 <img src="img/logo-specifics.png" alt="Name and Logo Spacing">
             </div>
-            <div class="solo-logo">
+            <div>
                 <img src="img/solo-logo-specifics.png"  alt="Logo White Spacing">
             </div>
         </div>
     </section>
 
-    <section class="branding-samples">
+    <section class="branding-wrapper">
         <div id="white-sample">
             <img src="img/logo-black.png" alt="Brushfire Logo Black">
         </div>
@@ -67,13 +66,14 @@
         </div>
     </section>
     
-    <section class="primary-colors">
-        <div class="color-define">
+    <section class="primary-colors-wrapper">
+        <div class="color-define container">
             <h3 class="header">Colors</h3>
             <p>Our primary colors are bold and fundamental. They represent Brushfire's commitment to excellence in customer service and user experience.</p>
+            <br>
             <p>The Subtle gradients represent the attention and focus Brushfire gives to to it's client and customers.</p>
         </div>
-        <div class="color-display">
+        <div class="color-display container">
             <ul>
                 <li><img src="img/blue-gradient.png" alt="Blue Gradient">  <p>135deg, #1091d0, #le629c</p></li>
                 <li><img src="img/orange-gradient.png" alt="Orange Gradient">  <p>135deg, #f9a843, #f44c3f</p></li>
@@ -86,11 +86,13 @@
         </div>
     </section>
 
-    <section class="typography">
-        <div class="typography-define">
+    <section class="typography-wrapper">
+        <div class="typography-define container">
             <h3 class="header">Typography</h3>
             <p>Montserrat and Lato as our two primary application typefaces. Mrs Eaves XL is used for marketing and external facing assets. Montserrat is to be used for headlines, subheads and buttons. Lato is to be used for in application body copy.</p>
+            <br>
             <p>Mrs Eaves XL is to be used for body copy, quotes, subtitles on marketing material.</p>
+            <br>
             <p>For web and social icons we use FontAwesome v4.</p>
         </div>
         <div class="typography-display">
@@ -99,53 +101,46 @@
                 <code>font-family: 'Montserrat', sans-serif;</code>
             </div> 
             <div class="montserrat-display">
-                    <p>ABCDEFGHIJKLM
-                    NOPQRSTUVWXYZ 
-                    abcdefghijklm
-                    nopqrstuvwxyz 
-                    1234567890!@&pound $%^&amp*()
-                </p>
+                <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p> 
+                <p>abcdefghijklmnopqrstuvwxyz</p>
+                <p>1234567890!@&pound $%^&amp*()</p>
             </div>    
             <div class="lato-display">
                 <h3>Lato</h3>
                 <code>font-family: 'Lato', sans-serif;</code>
             </div>
             <div class="lato-display">
-                <p>ABCDEFGHIJKLM
-                    NOPQRSTUVWXYZ 
-                    abcdefghijklm
-                    nopqrstuvwxyz 
-                    1234567890!@&pound $%^&amp*()
-                </p>
+                <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p> 
+                <p>abcdefghijklmnopqrstuvwxyz</p>
+                <p>1234567890!@&pound $%^&amp*()</p>
             </div>
             <div class="mrseaves-display">
                 <h3>Mrs Eaves XL</h3>
-                <code>
-                    &ltlink rel="stylesheet" href="https://use.typekit.net/cuf7qfb.css"&gt
-
-                    &ltstyle&gt
-                      @import url("https://use.typekit.net/ouf7qfb.css");
-                    &lt/style&gt
-
-                    font-family: "mrs-eaves-xl-serif",serif;
-                </code>
+                    <code>&ltlink rel="stylesheet" href="https://use.typekit.net/cuf7qfb.css"&gt</code>
+                    <br>
+                    <code>
+                          &ltstyle&gt
+                          @import url("https://use.typekit.net/ouf7qfb.css");
+                          &lt/style&gt
+                    </code>  
+                    <br>
+                    <code>font-family: "mrs-eaves-xl-serif",serif;</code>
             </div>
             <div class="mrseaves-display">
-                <p>ABCDEFGHIJKLM
-                    NOPQRSTUVWXYZ 
-                    abcdefghijklm
-                    nopqrstuvwxyz 
-                    1234567890!@&pound $%^&amp*()
-                </p>
+                <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p> 
+                <p>abcdefghijklmnopqrstuvwxyz</p>
+                <p>1234567890!@&pound $%^&amp*()</p>
             </div>
         </div>
     </section>
 
-    <section class="photography">
-        <div class="photo-define">
+    <section class="photography-wrapper">
+        <div class="photo-define container">
             <h3 class="header">Photography</h3>
             <p>Our Photography is provided by our clients with photos from their events & check-in stations.</p>
+            <br>
             <p>A.This is the primary treatment with a desaturated, with -24 lightness filter to help increase contrast of overlaying text</p>
+            <br>
             <p>B. A secondary filter is desaturated, with -24 lightness filter, our orange gradient overlayed with a Darker Color blending mode, and a monochrome layer pulled from the channels layer to add a darker tint.</p>
         </div>
         <div class="photo-display">
