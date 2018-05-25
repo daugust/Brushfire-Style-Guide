@@ -1,2 +1,1 @@
-# daugust.github.io
 Brushfire
